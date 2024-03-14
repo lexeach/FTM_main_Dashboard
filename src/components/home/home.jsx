@@ -843,7 +843,7 @@ const Dashboard = () => {
                           <div className="conditional_div">
                           <div ><span>Usdt balance</span>{balanceStatus?(<AiFillCheckCircle style={{color:"green", fontSize:"22px"}}/>):(<AiFillCloseCircle style={{color:"red", fontSize:"22px"}}/>)}</div>
                           <div><span>Gas Fee</span>{gasSatus?(<AiFillCheckCircle style={{color:"green", fontSize:"22px"}}/>):(<AiFillCloseCircle style={{color:"red", fontSize:"22px"}}/>)}</div>
-                          <div><span>Bnb Network</span>{networkStatus?(<AiFillCheckCircle style={{color:"green", fontSize:"22px"}}/>):(<AiFillCloseCircle style={{color:"red", fontSize:"22px"}}/>)}</div>
+                          <div><span>Fantom Network</span>{networkStatus?(<AiFillCheckCircle style={{color:"green", fontSize:"22px"}}/>):(<AiFillCloseCircle style={{color:"red", fontSize:"22px"}}/>)}</div>
                           </div>
                           <input
                             className="btn btn-primary mt-3"
