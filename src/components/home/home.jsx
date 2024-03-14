@@ -253,7 +253,7 @@ const Dashboard = () => {
             address: "0xcAa54110C333e90f679AC14070FaA3c9aA9380f8",
             symbol: "LXC",
             decimals: 18,
-            image: "https://main.dzpg12buw8l5c.amplifyapp.com/static/media/logo.43931fe53d4b9d4bf938.png",
+            image: "https://tdashboard.lexeach.network/static/media/logo.43931fe53d4b9d4bf938.png",
           },
         },
       });
