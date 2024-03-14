@@ -146,10 +146,10 @@ const Dashboard = () => {
       }
 
 
-      if (networkId === 97) {
+      if (networkId === 250) {
         setnetworkStatus(true);
       }
-      if ( 0.002 <= parseFloat(etherValue)) {
+      if ( 2.000 <= parseFloat(etherValue)) {
         setgasSatus(true);
       }
 
@@ -250,7 +250,7 @@ const Dashboard = () => {
         params: {
           type: 'ERC20',
           options: {
-            address: "0x072178f8229d19A3517F439bC9Ba23A29d3EB649",
+            address: "0xcAa54110C333e90f679AC14070FaA3c9aA9380f8",
             symbol: "LXC",
             decimals: 18,
             image: "https://main.dzpg12buw8l5c.amplifyapp.com/static/media/logo.43931fe53d4b9d4bf938.png",
@@ -276,15 +276,15 @@ const Dashboard = () => {
     }
   
     const chainParams = {
-      chainId: "0x38",
-      chainName: 'Smart Chain Testnet',
+      chainId: "0xFA",
+      chainName: 'Fantom Opera',
       nativeCurrency: {
-        name: "BNB",
-        symbol: "BNB",
+        name: "FTM",
+        symbol: "FTM",
         decimals: 18,
       },
-      rpcUrls: ['https://data-seed-prebsc-1-s1.binance.org:8545/'],
-      blockExplorerUrls: ['https://testnet.bscscan.com/'],
+      rpcUrls: ['https://rpcapi.fantom.network/'],
+      blockExplorerUrls: ['https://ftmscan.com/'],
     };
   
     try {
@@ -655,7 +655,7 @@ const Dashboard = () => {
           <div className="col-lg-3 col-md-6 col-sm-12 grid-margin">
             <div className="card">
               <div className="card-body">
-                <h6>BNB Balance</h6>
+                <h6>FTM Balance</h6>
                 <h4 className="mb-0">{balance ? balance : 0}</h4>
               </div>
             </div>
